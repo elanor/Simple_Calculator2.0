@@ -1,0 +1,45 @@
+#app {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+.equal {
+  grid-column: 1 / -1;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+input {
+  text-align: flex-end;
+}
+
+.equal,
+.operator {
+  background-color: #db5230;
+  color: black;
+  border: 1px solid #db5230;
+}
+
+.keys {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  height: 40px;
+  font-size: 18px;
+  background-color: #234567;
+  color: white;
+  border: 1px solid #234567;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+footer {
+  visibility: hidden;
+}

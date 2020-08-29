@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Simple Calculator</title>
+    <meta name="description" content="Simple calculator with basic functions" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+        <div class="container">
+            
+                <div class="result">
+                    <input type="text" class="phrase" />
+                </div>
+                <div class="keys">
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    7
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    8
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    9
+                </button>
+
+                <button type="button" class="button reset" name="button" onclick="addValue(this)">
+                    C
+                </button>
+
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    4
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    5
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    6
+                </button>
+                <button type="button" class="button operator" name="button" onclick="addValue(this)">
+                    +
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    1
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    2
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    3
+                </button>
+                <button type="button" class="button operator" name="button" onclick="addValue(this)">
+                    -
+                </button>
+                <button type="button" class="button number" name="button" onclick="addValue(this)">
+                    0
+                </button>
+                <button type="button" class="button operator" name="button" onclick="addValue(this)">
+                    .
+                </button>
+                <button type="button" class="button operator" name="button" onclick="addValue(this)">
+                    *
+                </button>
+                </button>
+                <button type="button" class="button operator" name="button" onclick="addValue(this)">
+                    /
+                </button>
+                <button onclick="result()" class="equal">=</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            Icons made by
+            <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
+            from
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+    </footer>
+</body>
+</html>
